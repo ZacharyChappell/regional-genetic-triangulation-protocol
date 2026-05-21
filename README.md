@@ -2,6 +2,8 @@
 
 Public protocol and synthetic-data scaffold for cross-modal triangulation of regional genetic liability axes in neurodegenerative disease.
 
+Project page: [Open Science Framework](https://osf.io/y2zf5/overview)
+
 ## Overview
 
 This repository documents a staged research framework for evaluating whether disease-prioritised regional genetic components can be followed as reproducible liability-indexing axes across imaging, molecular and clinical domains.
