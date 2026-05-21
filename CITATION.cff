@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Regional Genetic Triangulation Protocol"
+message: "If you use or refer to this project, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Chappell"
+    given-names: "Zachary Lee"
+    orcid: "https://orcid.org/0000-0001-8438-6374"
+abstract: "A public protocol and synthetic-data scaffold for cross-modal triangulation of regional genetic liability axes in neurodegenerative disease."
+keywords:
+  - statistical genetics
+  - neuroimaging
+  - neurodegeneration
+  - post-GWAS
+  - reproducible research
+  - imaging genetics
+license: MIT
+repository-code: "https://github.com/YOUR_USERNAME/regional-genetic-triangulation-protocol"
+version: "0.1.0"
+date-released: "2026-05-21"
