@@ -22,9 +22,7 @@ This repository does not reproduce protected analyses or release individual-leve
 
 ## Scientific framing
 
-This is a conservative biological triangulation framework.
-
-It does **not** claim that regional genetic components prove causal mechanisms.
+This is a conservative biological triangulation framework. It does **not** claim that regional genetic components prove causal mechanisms. 
 
 Instead, the framework treats such components as pre-specified genetic indices that can be followed through a staged validation hierarchy:
 
@@ -45,6 +43,14 @@ This repository is intended to provide a transparent public scaffold for:
 - dataset access planning;
 - technical notes and protocol development.
 
+## Documentation
+
+- [Project rationale](docs/project_rationale.md)
+- [Validation hierarchy](docs/validation_hierarchy.md)
+- [Dataset access plan](docs/dataset_access_plan.md)
+- [Limitations and design risks](docs/limitations_and_design_risks.md)
+- [Public/private boundary](docs/public_private_boundary.md)
+
 ## Data governance
 
 This repository does **not** contain individual-level genetic, imaging, clinical or phenotypic data.
@@ -53,43 +59,33 @@ It does **not** contain UK Biobank data, participant identifiers, protected geno
 
 Any examples in this repository will use synthetic or openly shareable data only.
 
-## Planned structure
+## Repository structure
 
 ```text
 docs/
   project_rationale.md
   validation_hierarchy.md
   dataset_access_plan.md
-  reviewer_risk_register.md
+  limitations_and_design_risks.md
+  public_private_boundary.md
 
 notebooks/
-  01_synthetic_component_mapping.ipynb
-  02_annotation_workflow_skeleton.ipynb
-  03_replication_design_mockup.ipynb
+  .gitkeep
 
 src/
-  component_schema.py
-  annotation_plan.py
-  validation_hierarchy.py
-  plotting.py
+  .gitkeep
 
 reports/
-  technical_note_v0.1.pdf
+  .gitkeep
+
 ```
-
-## Current status
-
-Version 0.1 is an initial public scaffold.
-
-The first release will focus on project framing, synthetic examples and protocol documents rather than new empirical claims.
 
 ## Author
 
-Zachary Lee Chappell
-PhD researcher in statistical genetics, computational neuroimaging and neurodegenerative disease modelling.
+Zachary Lee Chappell 
+PhD researcher in statistical genetics, computational neuroimaging and neurodegenerative disease modelling. .gitkeep
 
 ## License
 
-Code in this repository is released under the MIT License.
-
+Code in this repository is released under the MIT License. 
 Written protocol materials should be cited if reused.
