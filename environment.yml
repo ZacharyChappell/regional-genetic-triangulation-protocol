@@ -1,0 +1,16 @@
+name: regional-triangulation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - pyyaml
+  - rich
+  - pytest
+  - pip:
+      - polars
